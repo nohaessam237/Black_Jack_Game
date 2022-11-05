@@ -44,12 +44,10 @@ public class BlackJack {
 
         for (int i = 0; i < 3; i++) {
             System.out.println("player " + game.players[i].name + "'S turn");
-                        System.out.println("hhhhhhhhhh");
              
 
 
             while(game.players[i].Score < 21){
-                            System.out.println("YESSSSSSSSSSSSSSSSSSSSS, Update to github");
 
             System.out.println("your score now is " + game.players[i].Score);
             System.out.println("********************************");
